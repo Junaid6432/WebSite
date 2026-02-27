@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Ur Rehman - Data Analyst & Interactive Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Junaid Ur Rehman, transforming complex data into intelligent dashboards and immersive web experiences.">
+    <!-- Google Fonts: Inter as the primary premium font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Canvas for Matter.js Background/Hero Physics -->
+    <div id="physics-container"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">JR.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#case-study">Case Study</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero fade-in">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-reveal">Junaid Ur Rehman</span>
+                </h1>
+                <p class="hero-subtitle text-reveal-delay">Building Data-Driven Dashboards. I help people find insights
+                    through data.</p>
+                <div class="hero-cta text-reveal-delay-2">
+                    <a href="#projects" class="btn-primary magnetic">View Work</a>
+                </div>
+            </div>
+            <!-- Matter.js Interactive floating elements will be rendered in #physics-container -->
+            <!-- The floating elements will have HTML labels superimposed on them inside JS -->
+            <div id="physics-labels" class="no-pointer-events"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding fade-in-up">
+            <div class="container">
+                <h2 class="section-title">The Journey</h2>
+                <div class="timeline">
+                    <!-- Timeline items will be injected or expanded here -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card magnetic-slight">
+                            <h3>Data Reporting / Analyst</h3>
+                            <p>Proven track record in analyzing end-to-end business processes. Proficient in SQL,
+                                Python, Tableau, and Google Looker Studio for comprehensive data analysis and
+                                visualization.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card magnetic-slight">
+                            <h3>Interactive Web Developer</h3>
+                            <p>Creating immersive web experiences with modern architecture and fluid motion design,
+                                turning insights into engaging narratives.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+                        <p>Dashboards Built</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <span class="stat-number" data-target="99">0</span><span class="stat-plus">%</span>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Matrix -->
+        <section id="skills" class="skills section-padding fade-in-up">
+            <div class="container">
+                <h2 class="section-title">Skills Matrix</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card hover-bounce">
+                        <h3>Data Analytics</h3>
+                        <ul class="skill-list">
+                            <li>SQL / Python</li>
+                            <li>Google BigQuery</li>
+                            <li>Tableau / Looker Studio</li>
+                            <li>Data Modeling</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category glass-card hover-bounce">
+                        <h3>Analytic Methods</h3>
+                        <ul class="skill-list">
+                            <li>EDA & A/B Testing</li>
+                            <li>Linear / Logistic Regression</li>
+                            <li>Segmentation / Clustering</li>
+                            <li>Statistics & ANOVA</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category glass-card hover-bounce">
+                        <h3>Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 / CSS3 / ES6+</li>
+                            <li>Interactive Animations</li>
+                            <li>Performance Optimization</li>
+                            <li>Figma / UI Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="projects" class="projects section-padding fade-in-up">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Cards -->
+                    <article class="project-card glass-card expand-on-click">
+                        <div class="project-bg"
+                            style="background: linear-gradient(45deg, #0a192f, #112240); background-image: url('https://img.freepik.com/free-photo/uber-taxi-app-smartphone-screen_1379-3221.jpg'); background-size: cover; background-position: center; mix-blend-mode: overlay;">
+                        </div>
+                        <div class="project-content">
+                            <h3>Uber Pricing Optimization</h3>
+                            <p class="project-tech">Python / SQL / BigQuery / Tableau</p>
+                            <p class="project-desc">Analyzing New York City order demand and driver pricing.</p>
+                            <div class="project-details hidden">
+                                <h4>Problem</h4>
+                                <p>Unbalanced supply and demand causing high wait times.</p>
+                                <h4>Solution</h4>
+                                <p>Optimized pricing dashboards based on pickup location and hour analysis.</p>
+                                <h4>Impact</h4>
+                                <p>Maximized total optimized revenue while managing passenger wait times.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Financial Dashboard -->
+                    <article class="project-card glass-card expand-on-click">
+                        <div class="project-bg" style="background: linear-gradient(45deg, #1f0b2e, #112240);"></div>
+                        <div class="project-content">
+                            <h3>Banking Financial Dashboard</h3>
+                            <p class="project-tech">Looker Studio / SQL / Excel</p>
+                            <p class="project-desc">Comprehensive daily reporting for banking business flows.</p>
+                            <div class="project-details hidden">
+                                <h4>Problem</h4>
+                                <p>Siloed analytical reports slowing down executive decisions.</p>
+                                <h4>Solution</h4>
+                                <p>Centralized Google Looker Studio dashboard integrating diverse data pipelines.</p>
+                                <h4>Impact</h4>
+                                <p>Improved actionable insight generation speed by 60%.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Case Study -->
+        <section id="case-study" class="case-study section-padding fade-in-up">
+            <div class="container glass-card large-card hover-glow-subtle">
+                <h2 class="section-title">Case Study: Uber NYC Pricing Optimization</h2>
+                <div class="case-study-content">
+                    <div class="cs-block">
+                        <h3>1. The Data Strategy</h3>
+                        <p>Aggregating millions of Uber trip records from NYC boroughs (Manhattan, Bronx, Queens) using
+                            SQL and Google BigQuery to understand spatial demand.</p>
+                    </div>
+                    <div class="cs-block">
+                        <h3>2. Statistical Methods</h3>
+                        <p>Applied Exploratory Data Analysis (EDA) and segmentation to categorize order peaks by day,
+                            hour, and pickup location to find inefficiencies.</p>
+                    </div>
+                    <div class="cs-block">
+                        <h3>3. Visualization & Modeling</h3>
+                        <p>Developed Tableau dashboards to visualize optimized revenue metrics: Average Distance per
+                            Order, Total Passengers, and Pricing vs Response time.</p>
+                    </div>
+                    <div class="cs-block">
+                        <h3>4. Business Impact</h3>
+                        <p>Simulated a $688K increase in total optimized revenue per quarter while better distributing
+                            driver resources across high-demand areas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding fade-in-up">
+            <div class="container contact-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>Looking for a data-driven developer to elevate your next project?</p>
+                <form class="contact-form glass-card hover-glow">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required placeholder=" " rows="4"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn magnetic">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2026 Junaid Ur Rehman. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#" class="magnetic-slight">LinkedIn</a>
+            <a href="#" class="magnetic-slight">GitHub</a>
+            <a href="#" class="magnetic-slight">Email</a>
+        </div>
+    </footer>
+
+    <!-- Matter.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+
+    <!-- Application Scripts -->
+    <script src="./js/physics.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
